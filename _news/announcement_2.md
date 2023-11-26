@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New preprint on understanding visually-rich documents with LLMs: [**"LMDX: Language Model-based Document Information Extraction and Localization"**]([LMDX: Language Model-based Document Information Extraction and Localization](https://arxiv.org/abs/2309.10952))
+New preprint on understanding visually-rich documents with LLMs: [LMDX: Language Model-based Document Information Extraction and Localization](https://arxiv.org/abs/2309.10952)
