@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Join Google Cloud AI as a Student Research in Fall 2023!
+Join Google Cloud AI as a Student Researcher in Fall 2023!
