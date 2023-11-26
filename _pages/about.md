@@ -20,7 +20,7 @@ Welcome! I am a fourth-year PhD student at [UC San Diego](https://ucsd.edu) advi
 I spent wonderful time doing research at [Google Cloud AI](https://research.google/teams/cloud-ai/), [Google Research](https://research.google/), [Adobe Research](https://research.adobe.com/), and [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/).
 I received my B.S. in Computer Science from [Peking University](https://english.pku.edu.cn/) in 2020, where I was advised by [Prof. Xiaojun Wan](https://wanxiaojun.github.io/).
 
-My research focuses on applying NLP to real-world problems. I am particularly interested in building systems that can process and understand a wide range of data, including tabular data, visually-rich documents, web contents, etc, aiming to bridge the gap between vast knowledge sources and practical NLP applications.
+My research focuses on applying NLP to real-world problems. I am particularly interested in building systems that can process and understand a wide range of data, including tabular data, visually-rich documents, web contents, etc. My goal is to bridge the gap between vast knowledge sources and practical NLP applications.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
