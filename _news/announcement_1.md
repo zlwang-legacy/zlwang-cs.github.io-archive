@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-11-06 00:00:00-0800
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Join Google Cloud AI as a Student Research in Fall 2023!
