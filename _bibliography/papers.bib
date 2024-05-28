@@ -3,7 +3,21 @@
 
 @string{aps = {American Physical Society,}}
 
-@inproceedings{chain-of-table,
+@inproceedings{ldb,
+  title={LDB: A Large Language Model Debugger via Verifying Runtime Execution Step-by-step},
+  author={Li Zhong and Zilong Wang** and Jingbo Shang},
+  booktitle = "ACL 2024 (Findings)",
+  year      = "2024",
+  selected  = true,
+  abbr      = {ACL},
+  code      = {https://github.com/FloridSleeves/LLMDebugger},
+  twitter   = {https://x.com/zlwang_cs/status/1791182863003799616},
+  arxiv     = {2402.16906},
+  demo      = {https://huggingface.co/spaces/shangdatalab-ucsd/LDB}
+}
+
+
+@inproceedings{cotable,
   title = "Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding",
   author       = {Zilong Wang and
                   Hao Zhang and 
@@ -17,47 +31,27 @@
                   Chen-Yu Lee and 
                   Tomas Pfister},
   booktitle = "ICLR 2024",
-  month = jan,
-  year = "2024",
-  selected = true,
-  abbr     = {ICLR},
-  html         = {https://huggingface.co/papers/2401.04398},
-  arxiv        = {2401.04398},
+  year      = "2024",
+  selected  = true,
+  abbr      = {ICLR},
+  blog      = {https://research.google/blog/chain-of-table-evolving-tables-in-the-reasoning-chain-for-table-understanding/},
+  arxiv     = {2401.04398},
+  code      = {https://github.com/google-research/chain-of-table},
+  twitter   = {https://x.com/GoogleAI/status/1788090504804024812}
+}
+@inproceedings{peng2024metaie,
+  title={Answer is All You Need: Instruction-following Text Embedding via Answering the Question},
+  author={Peng, Letian and Wang, Zilong and Yao, Feng and Wang, Zihan and Shang, Jingbo},
+  booktitle = "ACL 2024",
+  year      = "2024",
+  selected  = true,
+  abbr      = {ACL},
+  twitter   = {https://x.com/LetianPeng/status/1791192411479343339},
+  arxiv     = {2404.00457},
+  code      = {https://github.com/zhang-yu-wei/InBedder}
 }
 
-
-@inproceedings{DBLP:conf/kdd/WangZWLT23,
-  author       = {Zilong Wang and
-                  Yichao Zhou and
-                  Wei Wei and
-                  Chen{-}Yu Lee and
-                  Sandeep Tata},
-  editor       = {Ambuj K. Singh and
-                  Yizhou Sun and
-                  Leman Akoglu and
-                  Dimitrios Gunopulos and
-                  Xifeng Yan and
-                  Ravi Kumar and
-                  Fatma Ozcan and
-                  Jieping Ye},
-  title        = {{VRDU:} {A} Benchmark for Visually-rich Document Understanding},
-  booktitle    = {KDD 2023},
-  pages        = {5184--5193},
-  publisher    = {{ACM}},
-  year         = {2023},
-  url          = {https://doi.org/10.1145/3580305.3599929},
-  doi          = {10.1145/3580305.3599929},
-  timestamp    = {Fri, 29 Sep 2023 15:51:58 +0200},
-  biburl       = {https://dblp.org/rec/conf/kdd/WangZWLT23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  selected     = true,
-  abbr         = {KDD},
-  code         = {https://github.com/google-research/google-research/tree/master/vrdu},
-  html         = {https://research.google/resources/datasets/visually-rich-document-understanding/},
-  arxiv        = {2211.15421},
-}
-
-@article{DBLP:journals/corr/abs-2309-10952,
+@inproceedings{lmdx,
   author       = {Vincent Perot and
                   Kai Kang and
                   Florian Luisier and
@@ -69,105 +63,66 @@
                   Hao Zhang and
                   Nan Hua},
   title        = {{LMDX:} Language Model-based Document Information Extraction and Localization},
-  journal      = {arXiv},
-  volume       = {abs/2309.10952},
-  year         = {2023},
-  url          = {https://doi.org/10.48550/arXiv.2309.10952},
-  doi          = {10.48550/ARXIV.2309.10952},
-  eprinttype    = {arXiv},
-  eprint       = {2309.10952},
-  timestamp    = {Mon, 25 Sep 2023 15:34:00 +0200},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2309-10952.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  selected     = true,
-  abbr         = {arXiv},
-  html         = {https://huggingface.co/papers/2309.10952},
-  arxiv        = {2309.10952},
+  booktitle = "ACL 2024 (Findings)",
+  year      = "2024",
+  selected  = true,
+  abbr      = {ACL},
+  arxiv     = {2309.10952},
 }
 
-@inproceedings{wang-shang-2023-towards,
-  title = "Towards Zero-shot Relation Extraction in Web Mining: A Multimodal Approach with Relative {XML} Path",
-  author = "Wang, Zilong  and
-    Shang, Jingbo",
-  editor = "Bouamor, Houda  and
-    Pino, Juan  and
-    Bali, Kalika",
-  booktitle = "EMNLP 2023 Findings",
-  month = dec,
-  year = "2023",
-  address = "Singapore",
-  publisher = "Association for Computational Linguistics",
-  url = "https://aclanthology.org/2023.findings-emnlp.281",
-  doi = "10.18653/v1/2023.findings-emnlp.281",
-  pages = "4254--4265",
-  abstract = "The rapid growth of web pages and the increasing complexity of their structure poses a challenge for web mining models. Web mining models are required to understand semi-structured web pages, particularly when little is known about the subject or template of a new page. Current methods migrate language models to web mining by embedding the XML source code into the transformer or encoding the rendered layout with graph neural networks. However, these approaches do not take into account the relationships between text nodes within and across pages. In this paper, we propose a new approach, ReXMiner, for zero-shot relation extraction in web mining. ReXMiner encodes the shortest relative paths in the Document Object Model (DOM) tree of the web page which is a more accurate and efficient signal for key-value pair extraction within a web page. It also incorporates the popularity of each text node by counting the occurrence of the same text node across different web pages. We use contrastive learning to address the issue of sparsity in relation extraction. Extensive experiments on public benchmarks show that our method, ReXMiner, outperforms the state-of-the-art baselines in the task of zero-shot relation extraction in web mining.",
-  selected = true,
-  abbr     = {EMNLP},
-  arxiv    = {2305.13805},
-}
-
-@article{DBLP:journals/corr/abs-2305-14828,
-  author       = {Prashant Krishnan and
-                  Zilong Wang and
-                  Yangkun Wang and
-                  Jingbo Shang},
-  title        = {Towards Few-shot Entity Recognition in Document Images: {A} Graph
-                  Neural Network Approach Robust to Image Manipulation},
-  journal      = {arXiv},
-  volume       = {abs/2305.14828},
-  year         = {2023},
-  url          = {https://doi.org/10.48550/arXiv.2305.14828},
-  doi          = {10.48550/ARXIV.2305.14828},
-  eprinttype    = {arXiv},
-  eprint       = {2305.14828},
-  timestamp    = {Tue, 06 Jun 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2305-14828.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr        = {arXiv},
-  arxiv       = {2305.14828},
-}
-
-@article{DBLP:journals/corr/abs-2308-10335,
+@inproceedings{robustapi,
   author       = {Li Zhong and
                   Zilong Wang},
   title        = {A Study on Robustness and Reliability of Large Language Model Code
                   Generation},
-  journal      = {arXiv},
-  volume       = {abs/2308.10335},
-  year         = {2023},
-  url          = {https://doi.org/10.48550/arXiv.2308.10335},
-  doi          = {10.48550/ARXIV.2308.10335},
-  eprinttype    = {arXiv},
-  eprint       = {2308.10335},
-  timestamp    = {Wed, 30 Aug 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2308-10335.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  selected     = true,
-  abbr         = {arXiv},
-  code         = {https://github.com/FloridSleeves/RobustAPI},
-  arxiv        = {2308.10335},
+  booktitle = "AAAI 2024",
+  year      = "2024",
+  selected  = true,
+  abbr      = {AAAI},
+  twitter   = {https://x.com/zlwang_cs/status/1735575156498870445},
+  arxiv     = {2308.10335},
+  code      = {https://github.com/FloridSleeves/RobustAPI},
 }
 
-@article{DBLP:journals/corr/abs-2311-01751,
-  author       = {Letian Peng and
-                  Zilong Wang and
-                  Hang Liu and
-                  Zihan Wang and
-                  Jingbo Shang},
-  title        = {EmojiLM: Modeling the New Emoji Language},
-  journal      = {arXiv},
-  volume       = {abs/2311.01751},
-  year         = {2023},
-  url          = {https://doi.org/10.48550/arXiv.2311.01751},
-  doi          = {10.48550/ARXIV.2311.01751},
-  eprinttype    = {arXiv},
-  eprint       = {2311.01751},
-  timestamp    = {Tue, 07 Nov 2023 00:00:00 +0100},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2311-01751.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abbr         = {arXiv},
-  arxiv        = {2311.01751},
+
+@inproceedings{vrdu,
+  author       = {Zilong Wang and
+                  Yichao Zhou and
+                  Wei Wei and
+                  Chen{-}Yu Lee and
+                  Sandeep Tata},
+  title        = {{VRDU:} {A} Benchmark for Visually-rich Document Understanding},
+  booktitle = {KDD 2023},
+  year      = "2023",
+  abbr      = {KDD},
+  arxiv     = {2211.15421},
+  html      = {https://research.google/resources/datasets/visually-rich-document-understanding/},
+  code      = {https://github.com/google-research/google-research/tree/master/vrdu},
 }
+
+@inproceedings{rexminer,
+  author    = {Wang, Zilong and Shang, Jingbo},
+  title     = {Towards Zero-shot Relation Extraction in Web Mining: A Multimodal Approach with Relative {XML} Path},
+  booktitle = {EMNLP 2023 Findings},
+  year      = {2023},
+  abbr      = {EMNLP},
+  arxiv     = {2305.13805},
+}
+
+@inproceedings{DBLP:journals/corr/abs-2305-14828,
+  author    = {Prashant Krishnan and
+               Zilong Wang and
+               Yangkun Wang and
+               Jingbo Shang},
+  title     = {Towards Few-shot Entity Recognition in Document Images: {A} Graph Neural Network Approach Robust to Image Manipulation},
+  booktitle = {COLING 2024},
+  year      = {2024},
+  abbr      = {COLING},
+  arxiv     = {2305.14828},
+}
+
+
+% Before 2023
 
 @inproceedings{DBLP:conf/acl/0002S22,
   author       = {Zilong Wang and
@@ -186,7 +141,6 @@
   timestamp    = {Mon, 01 Aug 2022 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/acl/0002S22.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
-  selected     = true,
   abbr         = {ACL},
   code         = {https://github.com/zlwang-cs/LASER-release},
   arxiv        = {2204.05819},
@@ -239,7 +193,6 @@
   timestamp    = {Thu, 10 Aug 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/emnlp/0002GTBNSSM22.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
-  selected     = true,
   abbr         = {EMNLP},
   arxiv        = {2211.14958}
 }
@@ -264,7 +217,6 @@
   timestamp    = {Sun, 02 Oct 2022 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/emnlp/WangX0SW21.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
-  selected     = true,
   abbr         = {EMNLP},
   code         = {https://github.com/microsoft/unilm/tree/master/layoutreader},
   arxiv        = {2108.11591},
@@ -314,7 +266,6 @@
   timestamp    = {Wed, 23 Mar 2022 10:11:55 +0100},
   biburl       = {https://dblp.org/rec/conf/emnlp/WangZ0L20.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
-  selected     = true,
   abbr         = {EMNLP},
   arxiv        = {2010.11685},
 }
@@ -364,4 +315,3 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   abbr         = {WWW},
 }
-
