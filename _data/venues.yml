@@ -1,15 +1,16 @@
 "arXiv":
   color: "#828282"
 
-"ACL":
-  color: "#B71C1C"
+# "ACL":
+#   color: "#B71C1C"
 
-"EMNLP":
-  color: "#2698BA"
+# "EMNLP":
+#   color: "#2698BA"
 
-"KDD":
-  color: "#B509AC"
+# "KDD":
+#   color: "#B509AC"
 
-"WWW":
+# "WWW":
 
-"AAAI":
+# "AAAI":
+
