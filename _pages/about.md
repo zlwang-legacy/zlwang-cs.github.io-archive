@@ -21,4 +21,4 @@ I received my B.S. in Computer Science from [Peking University](https://english.
 
 My research spans several areas of natural language processing, including reasoning, information extraction, multimodal learning, and language modeling. I primarily focus on LLM post-training, targeting at aligning LLMs to complex reasoning and planning with knowledge-intensive queries, autonomous agents, and mathematical problem-solving. Currently, I am exploring the collaboration of weak and strong LLMs and the process supervision with Monte Carlo Tree Search.
 
-My earlier research forcused on visually-rich document understanding, where I enabled language models to encode multimodal features and understand the rich contents in documents of various formats, such as forms, receipts, web pages, etc.
+My earlier research focuses on visually-rich document understanding, where I enabled language models to encode multimodal features and understand the rich contents in documents of various formats, such as forms, receipts, web pages, etc.
