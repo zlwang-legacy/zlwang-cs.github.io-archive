@@ -1,0 +1,432 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Zilong Wang</title>
+  <meta name="author" content="Zilong Wang">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="images/ucsd.ico">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+
+  <!-- Highlight tag CSS -->
+  <style>
+    .highlight-tag {
+      color: #d14;       /* elegant academic red */
+      font-weight: 600;
+    }
+    .paper-summary {
+      margin: 0;
+      padding: 0;
+      color: #777;
+      font-size: 1em;
+      font-weight: 400;
+      line-height: 1.3;
+      letter-spacing: 0.01em;
+      font-style: italic;
+    }
+    .paper-entry {
+      padding: 15px;
+      width: 75%;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+
+          <!-- Header block -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:2.5%;width:63%;vertical-align:middle">
+                  <p class="name" style="text-align: center;">
+                    Zilong Wang
+                  </p>
+
+                  <p>
+                    I am a Research Scientist at Google DeepMind. I completed my Ph.D. in Computer Science at 
+                    <a href="https://cse.ucsd.edu/" target="_blank">UC San Diego</a> in 2025, 
+                    advised by <a href="https://shangjingbo1226.github.io/" target="_blank">Professor Jingbo Shang</a>. 
+                    Before that, I received my B.S. from 
+                    <a href="https://english.pku.edu.cn" target="_blank">Peking University</a> in 2019, 
+                    where I worked with <a href="https://wanxiaojun.github.io/" target="_blank">Professor Xiaojun Wan</a>.
+                  </p>
+
+                  <p>
+                    My research focuses on building effective and reliable LLM agents for code generation. 
+                    If you'd like to discuss research—or just chat—feel free to reach out at
+                    <span style="padding-left: 3px; font-family: 'JetBrains Mono', monospace; color: #555;">
+                      zlwang.ucsd at gmail dot com
+                    </span>
+                    .
+                  </p>
+
+                  <p style="text-align:center">
+                    <a href="https://x.com/zlwang_cs">X</a> &nbsp;/&nbsp;
+                    <a href="https://github.com/zlwang-cs">Github</a> &nbsp;/&nbsp;
+                    <a href="https://www.linkedin.com/in/zilong-ryan-wang-742436171">LinkedIn</a> &nbsp;/&nbsp;
+                    <a href="https://scholar.google.com/citations?user=S_wQccsAAAAJ">Google Scholar</a>
+                  </p>
+                </td>
+
+                <td style="padding:2.5%;width:40%;max-width:40%;">
+                  <img style="width:85%;max-width:85%;" alt="profile photo" src="images/profile.jpg">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Publications header -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <h2>Publications</h2>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Publications list -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <!-- ReaL -->
+              <tr><td class="paper-entry">
+                <p class="paper-summary">[Build effective & reliable coding LLMs with program analysis as verifiable reward]</p>
+                <a href="https://arxiv.org/abs/2505.22704">
+                  <span class="papertitle">Training Language Models to Generate Quality Code with Program Analysis Feedback</span>
+                </a>
+                <br>
+                Feng Yao*, <strong>Zilong Wang*</strong>, Liyuan Liu, Junxia Cui, Li Zhong, Xiaohan Fu, Haohui Mai, Vish Krishnan, Jianfeng Gao, Jingbo Shang
+                <br>
+                Conference on Neural Information Processing Systems (NeurIPS), 2025
+                <br>
+                <a href="https://github.com/yaof20/ReaL">[code]</a>
+                <br>
+                <em>* equal contribution</em>
+              </td></tr>
+
+              <!-- Multi-objective Alignment -->
+              <tr><td class="paper-entry">
+                <p class="paper-summary">[Adaptive weighting for multi-objective RL, achiving SOTA for all rewards]</p>
+                <a href="https://arxiv.org/abs/2509.11452">
+                  <span class="papertitle">Learning to Optimize Multi-objective Alignment through Dynamic Reward Weighting</span>
+                </a>
+                <br>
+                Yining Lu, <strong>Zilong Wang**</strong>, Shiyang Li, Xin Liu, Changlong Yu, Qingyu Yin, Zhan Shi, Zixuan Zhang, Meng Jiang
+                <br>
+                Preprint, 2025
+                <br>
+                <em>** corresponding author</em>
+              </td></tr>
+
+              <!-- Debug like a Human -->
+              <tr><td class="paper-entry">
+                <p class="paper-summary">[Runtime-verified (e.g. execution trace), stepwise reasoning for precise LLM-based code debugging]</p>
+                <a href="https://arxiv.org/abs/2402.16906">
+                  <span class="papertitle">Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step-by-step</span>
+                </a>
+                <a href="https://github.com/FloridSleeves/LLMDebugger">
+                  <img src="https://img.shields.io/github/stars/FloridSleeves/LLMDebugger?style=social"
+                       style="height:16px;vertical-align:middle;">
+                </a>
+                <br>
+                <strong>Li Zhong</strong>, <strong>Zilong Wang</strong>**, Jingbo Shang
+                <br>
+                Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL Findings), 2024
+                <br>
+                <a href="https://github.com/FloridSleeves/LLMDebugger">[code]</a>
+                <a class="highlight-tag" href="https://www.marktechpost.com/2024/03/09/can-llms-debug-programs-like-human-developers-ucsd-researchers-introduce-ldb-a-machine-learning-based-debugging-framework-with-llms/">
+                  [featured: MarkTechPost]
+                </a>
+                <a class="highlight-tag" href="https://event.baai.ac.cn/activities/770">
+                  [talk: BAAI]
+                </a>
+                <a class="highlight-tag" href="https://paperswithcode.com/sota/code-generation-on-humaneval">
+                  [sota: HumanEval 98.2%]
+                </a>
+                <br>
+                <em>** corresponding author</em>
+              </td></tr>
+
+              <!-- Robustness & Reliability -->
+              <tr><td class="paper-entry">
+                <p class="paper-summary">[Real-world API reliability evaluation of coding LLMs at scale (LLM wasn't as good as StackOverflow at least in 2024)]</p>
+                <a href="https://arxiv.org/abs/2308.10335">
+                  <span class="papertitle">Can ChatGPT replace StackOverflow? A Study on Robustness and Reliability of Large Language Model Code Generation</span>
+                </a>
+                <br>
+                Li Zhong, <strong>Zilong Wang</strong>
+                <br>
+                AAAI Conference on Artificial Intelligence (AAAI), 2024
+                <br>
+                <a href="https://github.com/FloridSleeves/RobustAPI">[code]</a>
+                <a class="highlight-tag" href="https://www.theregister.com/2023/08/29/ai_models_coding/">
+                  [featured: TheRegister]
+                </a>
+              </td></tr>
+
+              <!-- Chain-of-Table -->
+              <tr><td class="paper-entry">
+                <p class="paper-summary">[Iterative table transformation powering the first tabular agent]</p>
+                <a href="https://arxiv.org/abs/2401.04398">
+                  <span class="papertitle">Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding</span>
+                </a>
+                <br>
+                <strong>Zilong Wang</strong>, Hao Zhang, Chun-Liang Li, Julian Martin Eisenschlos, Vincent Perot, Zifeng Wang, Lesly Miculicich, Yasuhisa Fujii, Jingbo Shang, Chen-Yu Lee, Tomas Pfister
+                <br>
+                International Conference on Learning Representations (ICLR), 2024
+                <br>
+                <a class="highlight-tag" href="https://research.google/blog/chain-of-table-evolving-tables-in-the-reasoning-chain-for-table-understanding/">
+                  [featured: Google Research Blog]
+                </a>
+              </td></tr>
+
+              <!-- RRO -->
+              <tr><td class="paper-entry">
+                <p class="paper-summary">[Rising-reward trajectory mining for efficient process-reward data collection]</p>
+                <a href="https://arxiv.org/abs/2505.20737">
+                  <span class="papertitle">RRO: LLM Agent Optimization Through Rising Reward Trajectories</span>
+                </a>
+                <br>
+                <strong>Zilong Wang</strong>, Jingfeng Yang, Sreyashi Nag, Samarth Varshney, Xianfeng Tang, Haoming Jiang, Jingbo Shang, Sheikh Muhammad Sarwar
+                <br>
+                Conference on Language Modeling (COLM), 2025
+              </td></tr>
+
+              <!-- Horizontal line separator -->
+              <tr><td class="paper-entry">
+                <hr style="border: 0; height: 1px; background-color: #ddd;">
+              </td></tr>
+
+              <!-- Speculative RAG -->
+              <tr><td class="paper-entry">
+                <a href="https://arxiv.org/abs/2407.08223">
+                  <span class="papertitle">Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting</span>
+                </a>
+                <br>
+                <strong>Zilong Wang</strong>, Zifeng Wang, Long Le, Huaixiu Steven Zheng, Swaroop Mishra, Vincent Perot, Yuwei Zhang, Anush Mattapalli, Ankur Taly, Jingbo Shang, Chen-Yu Lee, Tomas Pfister
+                <br>
+                International Conference on Learning Representations (ICLR), 2025
+                <br>
+                <a class="highlight-tag" href="https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/">
+                  [featured: Google Research Blog]
+                </a>
+              </td></tr>
+
+              <!-- Small Proxies -->
+              <tr><td class="paper-entry">
+                <a href="https://arxiv.org/abs/2510.01427">
+                  <span class="papertitle">A Tale of LLMs and Induced Small Proxies: Scalable Agents for Knowledge Mining</span>
+                </a>
+                <br>
+                Sipeng Zhang, Longfei Yun, <strong>Zilong Wang</strong>, Jingbo Shang, Letian Peng
+                <br>
+                Preprint, 2024
+              </td></tr>
+
+              <!-- OfficeBench -->
+              <tr><td class="paper-entry">
+                <a href="https://arxiv.org/abs/2407.19056">
+                  <span class="papertitle">OfficeBench: Benchmarking Language Agents across Multiple Applications for Office Automation</span>
+                </a>
+                <br>
+                <strong>Zilong Wang</strong>, Yuedong Cui, Li Zhong, Zimin Zhang, Da Yin, Bill Yuchen Lin, Jingbo Shang
+                <br>
+                Preprint, 2024
+              </td></tr>
+
+              <!-- TableRAG -->
+              <tr><td class="paper-entry">
+                <a href="https://arxiv.org/abs/2410.04739">
+                  <span class="papertitle">TableRAG: Million-Token Table Understanding with Language Models</span>
+                </a>
+                <br>
+                Si-An Chen, Lesly Miculicich, Julian Martin Eisenschlos, Zifeng Wang, <strong>Zilong Wang</strong>, Yanfei Chen, Yasuhisa Fujii, Hsuan-Tien Lin, Chen-Yu Lee, Tomas Pfister
+                <br>
+                Conference on Neural Information Processing Systems (NeurIPS), 2024
+              </td></tr>
+
+              <!-- Answer is All You Need -->
+              <tr><td class="paper-entry">
+                <a href="https://arxiv.org/abs/2402.09642">
+                  <span class="papertitle">Answer is All You Need: Instruction-following Text Embedding via Answering the Question</span>
+                </a>
+                <br>
+                Letian Peng, Yuwei Zhang, <strong>Zilong Wang</strong>, Jayanth Srinivasa, Gaowen Liu, Zihan Wang, Jingbo Shang
+                <br>
+                Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024
+                <br>
+                <a href="https://github.com/zhang-yu-wei/InBedder">[code]</a>
+              </td></tr>
+
+              <!-- LMDX -->
+              <tr><td class="paper-entry">
+                <a href="https://arxiv.org/abs/2309.10952">
+                  <span class="papertitle">LMDX: Language Model-based Document Information Extraction and Localization</span>
+                </a>
+                <br>
+                Vincent Perot, Kai Kang, Florian Luisier, Guolong Su, Xiaoyu Sun, Ramya Sree Boppana, <strong>Zilong Wang</strong>, Jiaqi Mu, Hao Zhang, Nan Hua
+                <br>
+                Findings of the Association for Computational Linguistics (ACL Findings), 2024
+              </td></tr>
+
+
+
+              <!-- VRDU -->
+              <tr><td class="paper-entry">
+                <a href="https://arxiv.org/abs/2211.15421">
+                  <span class="papertitle">VRDU: A Benchmark for Visually-rich Document Understanding</span>
+                </a>
+                <br>
+                <strong>Zilong Wang</strong>, Yichao Zhou, Wei Wei, Chen-Yu Lee, Sandeep Tata
+                <br>
+                ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2023
+                <br>
+                <a href="https://github.com/google-research/google-research/tree/master/vrdu">[code]</a>
+                <a href="https://research.google/resources/datasets/visually-rich-document-understanding/">[dataset]</a>
+              </td></tr>
+
+
+
+              <!-- XML Path -->
+              <tr><td class="paper-entry">
+                <a href="https://arxiv.org/abs/2305.13805">
+                  <span class="papertitle">Towards Zero-shot Relation Extraction in Web Mining: A Multimodal Approach with Relative XML Path</span>
+                </a>
+                <br>
+                <strong>Zilong Wang</strong>, Jingbo Shang
+                <br>
+                Conference on Empirical Methods in Natural Language Processing (EMNLP Findings), 2023
+              </td></tr>
+
+
+
+              <!-- Few-shot GNN -->
+              <tr><td class="paper-entry">
+                <a href="https://arxiv.org/abs/2305.14828">
+                  <span class="papertitle">Towards Few-shot Entity Recognition in Document Images: A Graph Neural Network Approach Robust to Image Manipulation</span>
+                </a>
+                <br>
+                Prashant Krishnan, <strong>Zilong Wang</strong>, Yangkun Wang, Jingbo Shang
+                <br>
+                International Conference on Computational Linguistics (COLING), 2024
+              </td></tr>
+
+
+
+              <!-- LASER -->
+              <tr><td class="paper-entry">
+                <a href="https://arxiv.org/abs/2204.05819">
+                  <span class="papertitle">Towards Few-shot Entity Recognition in Document Images: A Label-aware Sequence-to-Sequence Framework</span>
+                </a>
+                <br>
+                <strong>Zilong Wang</strong>, Jingbo Shang
+                <br>
+                Findings of the Association for Computational Linguistics (ACL Findings), 2022
+                <br>
+                <a href="https://github.com/zlwang-cs/LASER-release">[code]</a>
+              </td></tr>
+
+
+
+              <!-- MGDoc -->
+              <tr><td class="paper-entry">
+                <a href="https://arxiv.org/abs/2211.14958">
+                  <span class="papertitle">MGDoc: Pre-training with Multi-granular Hierarchy for Document Image Understanding</span>
+                </a>
+                <br>
+                <strong>Zilong Wang</strong>, Jiuxiang Gu, Chris Tensmeyer, Nikolaos Barmpalios, Ani Nenkova, Tong Sun, Jingbo Shang, Vlad I. Morariu
+                <br>
+                Conference on Empirical Methods in Natural Language Processing (EMNLP), 2022
+              </td></tr>
+
+
+
+              <!-- LayoutReader -->
+              <tr><td class="paper-entry">
+                <a href="https://arxiv.org/abs/2108.11591">
+                  <span class="papertitle">LayoutReader: Pre-training of Text and Layout for Reading Order Detection</span>
+                </a>
+                <br>
+                <strong>Zilong Wang</strong>, Yiheng Xu, Lei Cui, Jingbo Shang, Furu Wei
+                <br>
+                Conference on Empirical Methods in Natural Language Processing (EMNLP), 2021
+                <br>
+                <a href="https://github.com/microsoft/unilm/tree/master/layoutreader">[code]</a>
+              </td></tr>
+
+
+
+              <!-- DocStruct -->
+              <tr><td class="paper-entry">
+                <a href="https://arxiv.org/abs/2010.11685">
+                  <span class="papertitle">DocStruct: A Multimodal Method to Extract Hierarchy Structure in Document for General Form Understanding</span>
+                </a>
+                <br>
+                <strong>Zilong Wang</strong>, Mingjie Zhan, Xuebo Liu, Ding Liang
+                <br>
+                Conference on Empirical Methods in Natural Language Processing (EMNLP Findings), 2020
+              </td></tr>
+
+
+
+              <!-- Semantic Capacity -->
+              <tr><td class="paper-entry">
+                <a href="https://arxiv.org/abs/2010.01898">
+                  <span class="papertitle">Exploring Semantic Capacity of Terms</span>
+                </a>
+                <br>
+                Jie Huang*, <strong>Zilong Wang*</strong>, Kevin Chang, Wen-Mei Hwu, Jinjun Xiong
+                <br>
+                Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020
+                <br>
+                <em>* equal contribution</em>
+              </td></tr>
+
+
+
+              <!-- TransModality -->
+              <tr><td class="paper-entry">
+                <a href="https://doi.org/10.1145/3366423.3380000">
+                  <span class="papertitle">TransModality: An End2End Fusion Method with Transformer for Multimodal Sentiment Analysis</span>
+                </a>
+                <br>
+                <strong>Zilong Wang</strong>, Zhaohong Wan, Xiaojun Wan
+                <br>
+                The Web Conference (WWW), 2020
+              </td></tr>
+
+
+
+
+            </tbody>
+          </table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:0px">
+                  <p style="text-align:right;font-size:small;">
+                    Template from <a href="https://jonbarron.info/">Jon Barron</a>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
